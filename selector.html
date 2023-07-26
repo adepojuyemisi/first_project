@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* DESCENDANT SELECTOR */
+        .yesyes li{
+            background-color: blue;
+            color: aliceblue;
+            display: inline
+            
+        }
+
+        /* THE CHILD SELECTOR*/
+        ul>li{
+            background-color: black;
+            color: aliceblue;
+            padding: 30px 30px;
+            display: inline;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- DESCENDANT SELECTOR -->
+    <div class="yesyes">
+        <div class="nono">
+            <ul>
+                <li>HOME</li>
+                <li>CONTACT US</li>
+                <li>ABOUT US</li>
+                <li>NEWS</li>
+            </ul>
+        </div>
+    </div><br><br>
+
+    <!--THE CHILD SELECTOR-->
+    <div>
+        <div>
+            <div>
+                <div>
+                    <ul>
+                        <li>CODE</li>
+                        <li>NEWS</li>
+                        <li>HOME</li>
+                        <li>LIST</li>
+                        <li>CONTACT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>

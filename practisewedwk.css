@@ -1,0 +1,15 @@
+p{
+    color: red; 
+    background-color: black;
+     font-size: 45px; 
+     font-weight: bold; 
+     font-style: normal;
+     text-align: justify;
+     text-transform: lowercase;
+     font-family: monospace;
+     color: #acacf3
+
+}
+h4{
+    color: yellow; background-color: black ; word-spacing: 30px;font-size: 35px;font-weight: bolder; font-style: calc();
+}
